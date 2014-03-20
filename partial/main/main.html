@@ -1,0 +1,23 @@
+<div ng-controller="MainCtrl" animation="slide-left-right-ios7">
+
+  <!-- content area -->
+  <ion-content
+    has-footer="true"
+    scroll="true"
+    >
+
+    <!-- for pull to refresh -->
+    <ion-refresher
+     on-refresh="onRefresh()"
+     >
+    </ion-refresher>
+
+    <ion-nav-view></ion-nav-view>
+
+    <!-- content -->
+  </ion-content>
+
+  <ion-footer-bar>
+    <div class="title">Footer</div>
+  </ion-footer-bar>
+</div>
